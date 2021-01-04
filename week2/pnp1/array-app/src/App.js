@@ -3,13 +3,10 @@ import MoviesList from "./Movies"
 import "./arrays.css"
 
 function App() {
-
-  
   return (
-
     <div>
       <MoviesList />
-       </div>
+    </div>
   )
 }
 export default App

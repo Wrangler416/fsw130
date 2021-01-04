@@ -58,6 +58,7 @@ const MoviesList = () => {
                     >
                     </input>
 
+
                 </form>
                 <button className="button" onClick={sendMovie}>Add your movie</button>
                 </div>
