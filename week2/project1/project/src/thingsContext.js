@@ -1,15 +1,24 @@
-import React, {Component} from "react"
+import React, {createContext, useState} from "react"
+
+export const thingsContext = createContext()
 
 
-const {Provider, Consumer} = React.createContext()
+const ThingsProvider = (props) => {
 
-class ThingsContextProvider extends Component {
-        render() {
-            return (
-                <Provider value={this.state}>
-                    {this.props.children}
-                </Provider>
-            )
+    const [things, setThings] = useState([
+
+        { id: 1, 
+          title: "Thing One", 
+          description: "Ugliest Boat", 
+          url: "https://www.yachtforums.com/attachments/really-ugly-boat-jpeg.84747/"
         }
-}
-export {ThingsContextProvider, Consumer as ThingsContextConsumer}
+    ]);
+  
+    return (
+       <thingsContext.Provider value={things}>
+           {props.children}
+       </thingsContext.Provider>
+      )
+    }
+    
+export default ThingsProvider

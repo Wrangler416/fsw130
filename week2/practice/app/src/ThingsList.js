@@ -1,25 +1,23 @@
-import React from "react"
-
-const Things = () => {
-    return (
-        <div>
-            <li className="thingsList"></li>
-            <h1>{things}</h1>
-            <button className="delete">Delete</button>
-            <button className="edit">Edit</button>
-        </div>
-    )
-}
+// import React, {useContext} from "react"
+// import {ThingsContext} from "./ThingsContext"
 
 
+// const ThingsList = () => {
+//     const {things} = useContext(ThingsContext)
 
+//     return (
+//         <div>
+//             <ul className="thingsList">
+//              {things.map(things => {
+//                  return <ThingsList />;
+//              })}
+//              </ul>
+//         </div>
+//     )   
 
+// }
 
-
-
-
-
-
+// export default ThingsList
 
 
 
@@ -39,15 +37,38 @@ const Things = () => {
 
 
 
-// import React, {useState, useContext} from "react"
+
+
+
+
+
+
+
+// import React, {useState, useEffect} from "react"
 // import {thingsContext} from "./thingsContext"
 
 
 // const Things = () => {
 
-//     const {things} = useContext(thingsContext)
+//     const root = document.getElementById("root")
+
+//     const thingData = [
+
+//         { id: 1, 
+//           title: "Thing One", 
+//           description: "Ugliest Boat", 
+//           url: "https://www.yachtforums.com/attachments/really-ugly-boat-jpeg.84747/"
+//         }]
+
+//     const [things, setThings] = useState(thingData)
+
+//     const [newThing, setNewThing] = useState("")
+//     const [newDescription, setNewDescription] = useState("")
+//     const [newURL, setNewURL] = useState("")
 
 //     const handleTitle = (e) => setNewThing(e.target.value)
+//     const handleDescription = (e) => setNewDescription(e.target.value)
+//     const handleURL = (e) => setNewURL(e.target.value)
 
 //     const addThing = (things) => {
 //         things.id = things.length + 1
@@ -120,23 +141,17 @@ const Things = () => {
 
 
 
-//  // const thingData = [
-
-//     //     { id: 1, 
-//     //       title: "Thing One", 
-//     //       description: "Ugliest Boat", 
-//     //       url: "https://www.yachtforums.com/attachments/really-ugly-boat-jpeg.84747/"
-//     //     }]
 
 
 
-// // useEffect(() => {
 
-// // })
+// useEffect(() => {
 
-// // function getData() {
-// //     axios.get("https://api.vschool.io/karatemple2/todo")
+// })
+
+// function getData() {
+//     axios.get("https://api.vschool.io/karatemple2/todo")
   
-// //     .then(response => createTweets(response.data))
-// //     .catch(error => console.log(error))
-// //   }
+//     .then(response => createTweets(response.data))
+//     .catch(error => console.log(error))
+//   }

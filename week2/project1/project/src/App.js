@@ -1,11 +1,14 @@
 import React from "react"
-import Things from "./Things"
+import ThingsList from "./ThingsList"
+import thingsContextProvider, { thingsContext } from "./thingsContext"
 
 function App() {
   return (
+    <thingsContextProvider>
     <div>
-      <Things />
+      <ThingsList />
     </div>
+    </thingsContextProvider>
   )
 }
 export default App 
