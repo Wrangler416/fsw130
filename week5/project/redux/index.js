@@ -9,7 +9,6 @@ const rootReducer = combineReducers({
     tvshows: tvshowReducer,
     allmovies: movieReducer,
     alltvshows: tvshowReducer
-
 })
 
 const store = createStore(rootReducer)
