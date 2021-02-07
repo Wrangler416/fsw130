@@ -1,6 +1,7 @@
 import React, {useState, useEffect, useContext} from "react"
 import axios from "axios"
 import ThemeContext from "./themeContext"
+import twitter from './twitter.png'; 
 import "./index.css"
 
 const Main = () => {
@@ -42,14 +43,12 @@ axios.get("https://api.vschool.io/karatemple2/todo")
 }
 
 
-
 function createTweets(data) {
 
   for(let i = 0; i < data.length; i++) {
         sendTweet(data[i])
   }
 }
-
 
 function sendTweet(tweet) {
 
@@ -96,6 +95,7 @@ function sendTweet(tweet) {
         <div style={themes}>
 
             <h2 id="main">Welcome to Twitter</h2>
+            <img className="logo" src={twitter}></img>
 
             <form className="form">
             <input 
