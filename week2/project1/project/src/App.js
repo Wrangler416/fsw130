@@ -1,6 +1,6 @@
 import React from "react"
 import ThingsList from "./ThingsList"
-import thingsContextProvider, { thingsContext } from "./thingsContext"
+import thingsContextProvider from "./thingsContext"
 
 function App() {
   return (
