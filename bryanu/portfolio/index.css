@@ -1,0 +1,30 @@
+.headshot {
+    float: right; 
+}
+
+.nobullets {
+    list-style-type: none;
+}
+
+h1, h2, h3 {
+    color: #3E5C0C; 
+}
+
+h3:hover {
+    color: black; 
+}
+
+h2:hover {
+    color: black; 
+}
+h1:hover {
+    color: black; 
+}
+
+a:hover {
+    color: #3E5C0C;
+}
+h5:hover {
+    color: #3E5C0C;
+
+}

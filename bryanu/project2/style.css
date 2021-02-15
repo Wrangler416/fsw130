@@ -1,0 +1,38 @@
+.square {
+    height: 200px;
+    width: 200px; 
+    border-style: solid;
+    border-color: #8C5627; 
+}
+
+.grid {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: center;
+    align-content: center;
+    width: 618px; 
+    height: 618px; 
+    margin: auto; 
+}
+
+.mole {
+    background-image: url("./imgs/mole.jpg");
+    background-size: cover; 
+}
+
+#title {
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 3em; 
+    color: #8C5627; 
+    text-align: center; 
+}
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em; 
+    color: #8C5627; 
+    text-align: center; 
+}
+
+h2 {
+    font-size: 2em; 
+}

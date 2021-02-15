@@ -1,0 +1,40 @@
+.body {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+}
+.form {
+    display: grid; 
+    grid-column: 2 / 3; 
+    float: right; 
+    width: 50%; 
+    height: 30px; 
+    color: #DE5763;
+}
+
+.button {
+    display: grid; 
+    grid-column: 2 / 3; 
+    float: right; 
+    width: 50%;
+    height: 30px; 
+    color: #DE5763;
+
+}
+
+h1 {
+    display: grid;
+    grid-column: 1 / 2; 
+    font-family:Arial, Helvetica, sans-serif;
+    color: #DE5763;
+}
+
+#add {
+    display: grid; 
+    grid-column: 2 / 3; 
+    float: right; 
+    width: 50%; 
+    height: 30px; 
+    color: #DE5763;
+    text-align: center; 
+
+}
