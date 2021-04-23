@@ -1,0 +1,51 @@
+h1 {
+    font-size: 4em; 
+    color: #1F571E;
+}
+h1:hover {
+    color: black; 
+}
+a:hover {
+    color: #236122;
+}
+h5:hover {
+    color: #236122;
+}
+.nobullets {
+    list-style-type: none;
+}
+li {
+    font-size: 22px;
+
+}
+.box {
+    display: inline; 
+    border-style: solid;
+    border-color: black; 
+    border-width: 1px;
+    padding: 0; 
+}
+body {
+    background-image: url("./imgs/race.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    position: relative; 
+}
+#intro {
+    text-align: right;
+    margin-top: 40px; 
+    margin-bottom: 15em; 
+}
+.scroll {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black; 
+    color: black; 
+    font-size: 25px; 
+    padding: 6px; 
+}
+
+#resume {
+    text-align: right; 
+}
